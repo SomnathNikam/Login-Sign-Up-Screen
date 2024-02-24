@@ -1,6 +1,6 @@
 package com.one.loginsignup
 
-// SignUpActivity.kt
+
 
 import android.os.Bundle
 import android.widget.Button
@@ -29,10 +29,10 @@ class SignUpActivity : AppCompatActivity() {
                 if (success) {
                     // Sign up successful, navigate to the login screen
                     // Example: startActivity(Intent(this, LoginActivity::class.java))
-                    Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this,"Success ful Sign Up", Toast.LENGTH_SHORT).show()
                 } else {
                     // Sign up failed, show an error message
-                    Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this,"Not able to sign up", Toast.LENGTH_SHORT).show()
                 }
             }
         }

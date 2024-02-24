@@ -31,10 +31,10 @@ class LoginActivity : AppCompatActivity() {
                     // Login successful, navigate to the next screen
                     // Example: startActivity(Intent(this, HomeActivity::class.java))
 
-                    Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Successful login", Toast.LENGTH_SHORT).show()
                 } else {
                     // Login failed, show an error message
-                    Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, "Failed to login", Toast.LENGTH_SHORT).show()
                 }
             }
         }
